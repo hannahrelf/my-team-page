@@ -1,87 +1,57 @@
 :root {
-    --montserrat: 'Montserrat', sans-serif;
-    --poppins: 'Poppins', sans-serif;
-    --serif: 'PT Serif', serif;
+  --montserrat: "Montserrat", sans-serif;
+  --poppins: "Poppins", sans-serif;
+  --serif: "PT Serif", serif;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "hd hd hd dt dt dt"
-    "mn1 mn1 mn2 mn2 mn3 mn3"
-    "mn4 mn4 mn5 mn5 mn6 mn6"
-    "ft ft ft ft ft ft";
-}
-
-
-.header {
-    grid-area: hd;
-    font-family: var(--serif);
-    font-weight: 700;
-    font-size: 36px;
+.heading {
+  grid-area: hd;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
 }
 
 .description {
-    grid-area: dt;
-    font-family: var(--poppins);
-    font-weight: 400;
-    font-size: 18px;
+  grid-area: dt;
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 h2 {
-    font-weight: 600;
-    font-size: 18px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 img {
-    width: 200px;
+  width: 238px;
 }
 
 .title {
-    font-family: var(--serif);
-    font-weight: 400;
-    font-size: 12px;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .name {
-    font-family: var(--poppins);
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.block-1 {
-    grid-area: mn1;
-}
-
-.block-2 {
-    grid-area: mn2;
-}
-
-.block-3 {
-    grid-area: mn3;
-}
-
-.block-4 {
-    grid-area: mn4;
-}
-
-.block-5 {
-    grid-area: mn5;
-}
-
-.block-6 {
-    grid-area: mn6;
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .footer {
-    grid-area: ft;
-    font-family: var(--montserrat);
-    font-weight: 500;
-    font-size: 14px;
-    color: rgba(169, 169, 169, 1);
+  grid-area: ft;
+  font-family: var(--montserrat);
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(169, 169, 169, 1);
+  text-align: center;
 }
 
 a {
-    font-weight: 700;
-    color: rgba(169, 169, 169, 1);
+  font-weight: 700;
+  color: rgba(169, 169, 169, 1);
 }
