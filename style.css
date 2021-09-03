@@ -3,3 +3,53 @@
     --poppins: 'Poppins', sans-serif;
     --serif: 'PT Serif', serif;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "hd hd hd dt dt dt"
+    "mn1 mn1 mn2 mn2 mn3 mn3"
+    "mn4 mn4 mn5 mn5 mn6 mn6"
+    "ft ft ft ft ft ft";
+}
+
+
+.header {
+    grid-area: hd;
+}
+
+.description {
+    grid-area: dt;
+}
+
+img {
+    width: 200px;
+}
+
+.block-1 {
+    grid-area: mn1;
+}
+
+.block-2 {
+    grid-area: mn2;
+}
+
+.block-3 {
+    grid-area: mn3;
+}
+
+.block-4 {
+    grid-area: mn4;
+}
+
+.block-5 {
+    grid-area: mn5;
+}
+
+.block-6 {
+    grid-area: mn6;
+}
+
+.footer {
+    grid-area: ft;
+}
