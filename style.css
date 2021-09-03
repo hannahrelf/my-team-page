@@ -1,4 +1,4 @@
-::root {
+:root {
     --montserrat: 'Montserrat', sans-serif;
     --poppins: 'Poppins', sans-serif;
     --serif: 'PT Serif', serif;
@@ -16,14 +16,37 @@
 
 .header {
     grid-area: hd;
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 36px;
 }
 
 .description {
     grid-area: dt;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 18px;
 }
 
 img {
     width: 200px;
+}
+
+.title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.name {
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .block-1 {
@@ -52,4 +75,13 @@ img {
 
 .footer {
     grid-area: ft;
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(169, 169, 169, 1);
+}
+
+a {
+    font-weight: 700;
+    color: rgba(169, 169, 169, 1);
 }
